@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<schemalist>
+
+  <schema path="/co/tauos/powerd/" id="co.tauos.powerd">
+
+    <key name='power-saver-on-unplug' type='b'>
+      <default>true</default>
+      <summary>Automatically enable power saver on unplug</summary>
+      <description>
+        If enabled, power saver mode will automatically turn on when the power supply is disconnected. When power is reconnected, the previous power profile will be restored. 
+      </description>
+    </key>
+
+  </schema>
+
+</schemalist>

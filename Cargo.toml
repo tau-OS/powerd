@@ -1,0 +1,16 @@
+[package]
+name = "powerd"
+version = "1.0.0"
+edition = "2021"
+license = "GPL-3.0-only"
+homepage = "https://tauos.co"
+description = "powerd is a power management daemon that provides power management featues and optimizations"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-udev = "0.8.0"
+tokio-stream = "0.1"
+zbus = "2.2.0"
+anyhow = "1.0.57"
+gio = "0.15.11"
+gsettings-macro = "0.1.7"
