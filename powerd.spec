@@ -27,7 +27,7 @@ optimizations.}
 %{_bindir}/powerd
 
 %prep
-%autosetup -n %{crate}-%{version_no_tilde} -p1
+%autosetup
 %cargo_prep
 
 %generate_buildrequires
