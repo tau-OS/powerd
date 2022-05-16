@@ -22,12 +22,7 @@ optimizations.}
 
 %description %{_description}
 
-%package     -n %{crate}
-Summary:        %{summary}
-
-%description -n %{crate} %{_description}
-
-%files       -n %{crate}
+%files
 %license LICENSE
 %{_bindir}/powerd
 
